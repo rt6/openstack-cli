@@ -2,16 +2,16 @@
 
 ## Install OpenStack CLI
 
-1) Downoload and install miniconda following the instructions on their website
+1) Downoload and install `miniconda` by following the instructions on their website
 
 2) Create conda environment
 ```sh
-conda create --name os-swift
+conda create --name os-cli
 ```
 
 3) Source environment
 ```sh
-source activate os-swift
+source activate os-cli
 ```
 
 4) Install Keystone, Swift and other needed packages
