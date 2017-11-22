@@ -20,6 +20,11 @@ pip install python-keystoneclient
 pip install python-swiftclient
 ```
 
+If you have problems building netifaces when installing python-keystoneclient, then you may need to install `gcc`
+```sh
+sudo apt install gcc
+```
+
 5) Export environment variables containing Keystone auth configs, or request a shell script containing the below from your OpenStack provider:  
 ```sh
 OS_AUTH_URL
